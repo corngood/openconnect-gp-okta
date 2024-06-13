@@ -321,7 +321,7 @@ def main(
     cert_password = conf.get('common', 'cert-password', vars=args, fallback=cert_password)
     cert_password_cmd = conf.get('common', 'cert-password-cmd', vars=args, fallback=cert_password_cmd)
     totp_key = conf.get('common', 'totp-key', vars=args, fallback=totp_key)
-    totp_key_cmd = conf.get('common', 'totp-key-cmd', vars=args, fallback=totp_key)
+    totp_key_cmd = conf.get('common', 'totp-key-cmd', vars=args, fallback=totp_key_cmd)
     sudo = conf.get('common', 'sudo', vars=args, fallback=False if sudo is None else sudo)
     useragent = conf.get('common', 'useragent', vars=args, fallback=useragent)
 
